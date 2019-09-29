@@ -421,6 +421,7 @@
   flex-direction: column;
   justify-content: space-between;
   background-image: url("assets/images/Layer\ 22\ copy\ 3@1X.png");
+  position: relative;
 }
 
 .section3 .block3 .column-left .image .text {
@@ -458,14 +459,14 @@
 }
 
 .section3 .block3 .plus {
+  position: absolute;
   width: 20px;
-  display: flex;
-  align-self: flex-end;
   font-family: 'Segoe WP Light';
   font-weight: bold;
   font-size: 22px;
   text-align: right;
-  padding: 0 5px 15px 0;
+  bottom: 15px;
+  right: 10px;
   color: #f9e2b4;
 }
 
@@ -500,27 +501,26 @@
 }
 
 .section3 .block3 .column-right .twitter {
+  position: relative;
   width: 329px;
   height: 233px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   background-image: url("assets/images/Layer\ 22\ copy\ 3@1X.png");
 }
 
 .section3 .block3 .column-right .twitter .image {
   height: 133px;
   width: 163px;
-  display: flex;
-  align-self: center;
   background-image: url("assets/images/twitter@1X.png");
 }
 
 .section3 .block3 .column-right .twitter .number {
   width: 20px;
-  display: flex;
-  align-self: flex-end;
-  padding: 10px 25px 0 0;
+  top: 20px;
+  right: 19px;
+  position: absolute;
   font-family: 'Segoe WP Light';
   font-size: 24px;
   color: #ffffff;
